@@ -11,7 +11,7 @@ class Pinrex < Formula
     def install
       # Install dependencies using Conan
       # system "conan", "install", ".", "-of", "buildu
-      system "cmake", "-S", ".", "-B", "build", "-DCMAKE_BUILD_TYPE=Release"
+      system "cmake", "-S", ".", "-B", "build", "-DCMAKE_BUILD_TYPE=Release", "-DCMAKE_INSTALL_PREFIX=#{prefix}"
       #system "cmake", "-S", ".", "-B", "build"
       system "cmake", "--build", "build"
       system "cmake", "--install", "build", "--config", "Release"
