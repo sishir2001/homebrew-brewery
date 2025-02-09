@@ -1,7 +1,7 @@
 class Pinrex < Formula
   desc "Pinrex:command-line tool to generate regex for postal codes"
   homepage "https://github.com/sishir2001/PinRex"
-  url "https://github.com/sishir2001/PinRex.git", tag: "v1.2.0"
+  url "https://github.com/sishir2001/PinRex.git", tag: "v1.2.1"
   license ""
   # head "https://github.com/sishir2001/PinRex.git", branch: "main"
 
